@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [open, setOpen] = useState(false)
-  const [tog, setTog] = useState(false)
+  const [tog, setTog] = useState(true)
   // useEffect(()=>{
   //   console.log(tog)
   // },[tog])
@@ -446,11 +446,11 @@ export default function Home() {
           {/* Market Stories */}
 
           {!tog &&
-            <div className=" flex flex-col items-center">
+            <div className="flex flex-col items-center">
               {/* CARD */}
-              <div className="flex p-2 text-black ">
-                <div className="w-96 p-4 bg-white shadow-2xl">
-                  <div><img src="https://images.unsplash.com/photo-1551533896-be6ee1ab6fd3?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="w-96" /></div>
+              <div className="flex flex-wrap p-2 text-black ">
+                <div className="w-fit p-4 bg-white shadow-2xl">
+                  <div><img src="https://images.unsplash.com/photo-1551533896-be6ee1ab6fd3?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="" /></div>
                   <div className="p-4">
                     <h3 className="text-2xl font-semibold ">The Coldest Sunset</h3>
                     <p>
@@ -461,9 +461,9 @@ export default function Home() {
               </div>
               {/* CARD ENDS */}
               {/* CARD */}
-              <div className="flex p-2 text-black ">
-                <div className="w-96 p-4 bg-white shadow-2xl">
-                  <div><img src="https://images.unsplash.com/photo-1551533896-be6ee1ab6fd3?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="w-96" /></div>
+              <div className="flex flex-wrap p-2 text-black ">
+                <div className="w-fit p-4 bg-white shadow-2xl">
+                  <div><img src="https://images.unsplash.com/photo-1551533896-be6ee1ab6fd3?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="" /></div>
                   <div className="p-4">
                     <h3 className="text-2xl font-semibold ">The Coldest Sunset</h3>
                     <p>
@@ -474,9 +474,9 @@ export default function Home() {
               </div>
               {/* CARD ENDS */}
               {/* CARD */}
-              <div className="flex p-2 text-black ">
-                <div className="w-96 p-4 bg-white shadow-2xl">
-                  <div><img src="https://images.unsplash.com/photo-1551533896-be6ee1ab6fd3?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="w-96" /></div>
+              <div className="flex flex-wrap p-2 text-black ">
+                <div className="w-fit p-4 bg-white shadow-2xl">
+                  <div><img src="https://images.unsplash.com/photo-1551533896-be6ee1ab6fd3?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="" /></div>
                   <div className="p-4">
                     <h3 className="text-2xl font-semibold ">The Coldest Sunset</h3>
                     <p>
@@ -486,6 +486,7 @@ export default function Home() {
                 </div>
               </div>
               {/* CARD ENDS */}
+            
             </div>
           }
 
